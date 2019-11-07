@@ -1,0 +1,464 @@
+/* CSS Document */
+body, ul, li, p
+{
+	margin:0;
+	padding:0;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+.container
+{
+margin:0 auto;
+width:100%;
+max-width:1800px;
+}
+
+#header-wrap {
+	width: 100%;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	display: block;
+	overflow: hidden;
+}
+
+.header-txt {
+	display: block;
+	overflow: hidden;
+	font-family: century gothic;
+	color: rgb(255, 2, 2);
+	margin: 1% 0% 1% 4%;
+	width: 30%;
+}
+
+.header-details {
+	display: block;
+	overflow: hidden;
+	width: 42%;
+}
+.header-contact {
+	font-family: century gothic;
+	color: #F00;
+	margin: 3% 0% 1% 2%;
+	display: block;
+	padding-left: 40%;
+	font-size: 16px;
+	padding-top: 0.6%;
+}
+
+
+.header-cntnumber {
+	font-family: century gothic;
+	color: rgb(255, 0, 0);
+	margin: 3% 0% 0% 1%;
+	display: block;
+}
+
+.header-cntnumber {
+	font-family: century gothic;
+	color: rgb(255, 0, 0);
+	margin: 3% 0% 0% 1%;
+	display: block;
+}
+
+.header-email {
+	font-family: century gothic;
+	color: #F00;
+	margin: 3% 0% 0% 1%;
+	display: block;
+	padding-left: 0%;
+	font-size: 16px;
+	padding-top: 0.5%;
+}
+
+
+.header-mail {
+	font-family: century gothic;
+	color: rgb(255, 0, 0);
+	margin: 3% 0% 0% 1%;
+	display: block;
+}
+
+#header-section-two {
+	background-color: rgb(164, 32, 32);
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.logo-wrap {
+	display: block;
+	overflow: hidden;
+	width: 22%;
+}
+
+.logo-wrap {
+	display: block;
+	overflow: hidden;
+	width: 22%;
+}
+
+#nav-menu {
+	display: block;
+	overflow: hidden;
+	width: 78%;
+	margin: 0%;
+}
+
+.menus {
+	margin: 0px;
+	padding: 6% 0px 0px;
+	width: 100%;
+}
+
+.menus li {
+	display: inline-block;
+	margin: 0%;
+	padding: 1% 3%;
+}
+
+.menus li a {
+	text-decoration: none;
+	font-family: century gothic;
+	font-size: 23px;
+	color: #FFF;
+}
+
+#doc-profile {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin: 4% 0px 0px;
+	/* background-color: #F00; */
+}
+
+.profile-one {
+	display: inline-block;
+	overflow: hidden;
+	width: 32%;
+	background-color: rgba(252, 252, 252, 0.9);
+	margin: 0px 0px 0px 0.9%;
+}
+
+.img-one {
+	width: 30%;
+	border: 2px solid #423E3E;
+	margin: 1%;
+	background-color: rgb(164, 32, 32);
+}
+
+.img-one img {
+	width: 100%;
+}
+
+.doc-name-one-wrap {
+	width: 60%;
+	display: block;
+	overflow: hidden;
+}
+
+.name {
+	font-family: century gothic;
+	color: rgb(164, 32, 32);
+	font-size: 40px;
+	margin: 8% 0% 0%;
+}
+
+.text {
+	font-family: century gothic;
+	color: rgb(164, 32, 32);
+	font-size: 25px;
+	margin: 0% 0% 0% 1%;
+}
+
+.profile-one {
+	display: inline-block;
+	overflow: hidden;
+	width: 32%;
+	background-color: rgba(252, 252, 252, 0.9);
+	margin: 0px 0px 0px 0.9%;
+}
+
+
+.img-one {
+	width: 30%;
+	border: 2px solid #423E3E;
+	margin: 1%;
+	background-color: rgb(164, 32, 32);
+}
+
+
+.read-more a {
+	color: #FFF;
+	font-family: century gothic;
+	font-size: 20px;
+	padding: 2%;
+	text-decoration: none;
+}
+
+.img-one img {
+	width: 100%;
+}
+
+.doc-name-one-wrap {
+	width: 60%;
+	display: block;
+	overflow: hidden;
+}
+
+.profile-one {
+	display: inline-block;
+	overflow: hidden;
+	width: 32%;
+	background-color: rgba(252, 252, 252, 0.9);
+	margin: 0px 0px 0px 0.9%;
+}
+
+#text-display {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	background-color: #FFF;
+	margin: 1% 0% 0%;
+}
+
+.doc-text {
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	margin: 0% 0% 0% 0.9%;
+	display: inline-block;
+	width: 32%;
+}
+
+.text-title {
+	color: #FFF;
+	font-family: century gothic;
+	text-align: center;
+	font-size: 40px;
+	background-color: rgb(164, 32, 32);
+}
+
+.text-paragraph p {
+	color: rgb(164, 32, 32);
+	margin: 10%;
+	text-align: justify;
+}
+
+.read-more {
+	text-align: center;
+	margin: 0% auto;
+	background-color: rgb(164, 32, 32);
+	width: 100%;
+	height: 50%;
+	padding: 2% 0px;
+}
+
+.read-more a {
+	color: #FFF;
+	font-family: century gothic;
+	font-size: 20px;
+	padding: 2%;
+	text-decoration: none;
+}
+
+
+#qoute-wrap {
+	background-color: #FFF;
+	display: block;
+	margin: 6% 0px 0px;
+	width: 100%;
+}
+
+#img-id {
+	display: block;
+	width: 100%;
+}
+
+.quote-one {
+	background-color: rgb(153, 24, 24);
+	display: inline-block;
+	margin: 1% 0px 0px 0.9%;
+	position: relative;
+	width: 32%;
+}
+
+.quote-img {
+	bottom: 118px;
+	position: absolute;
+	width: 30%;
+}
+
+.quote-img img {
+	width: 100%;
+	border-radius: 200px;
+}
+
+.quote-text {
+	font-family: century gothic;
+	font-size: 30px;
+	color: #FFF;
+	margin: 10% 0%;
+	text-align: center;
+}
+
+#footer-details {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	margin: 1% 0% 0%;
+	background: rgb(153, 24, 24) none repeat scroll 0% 0%;
+}
+
+.first-footer {
+	display: block;
+	overflow: hidden;
+	width: 32%;
+	margin: 0% 0% 0% 1%;
+}
+
+.address {
+	font-family: century gothic;
+	font-size: 40px;
+	color: #FFF;
+	text-align: center;
+	margin: 1%;
+}
+
+.address-text {
+	color: #FFF;
+	font-size: 23px;
+	text-align: center;
+}
+
+#second-footer {
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	margin: 1% 0% 0%;
+	background: rgb(153, 24, 24) none repeat scroll 0% 0%;
+}
+
+.first-class {
+	width: 50%;
+	display: block;
+	overflow: hidden;
+}
+
+
+.footer-header {
+	font-family: century gothic;
+	font-size: 40px;
+	text-align: left;
+	color: #FFF;
+	margin: 2%;
+	padding: 0px 0px 0px 2%;
+}
+
+
+.name-div {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.lable-name {
+	font-family: century gothic;
+	font-size: 20px;
+	color: #FFF;
+	text-align: left;
+	width: 22%;
+	padding: 3% 4%;
+}
+
+.textbox-name {
+	display: block;
+	overflow: hidden;
+	width: 44%;
+	padding: 1%;
+	margin: 1%;
+}
+
+.textbox-name input {
+	width: 100%;
+	height: 30px;
+	font-family: century gothic;
+	font-size: 20px;
+}
+
+.button-div {
+	display: block;
+	overflow: hidden;
+	float: right;
+	width: 50%;
+}
+
+.button-div input {
+	font-family: century gothic;
+	font-size: 20px;
+	background: #FFF none repeat scroll 0% 0%;
+	color: #B11D1D;
+	padding: 2% 14%;
+	margin: 1% 1% 8% 4%;
+}
+
+
+.second-class {
+	display: block;
+	margin: 1% 1% 0px 0px;
+	overflow: hidden;
+	width: 46%;
+}
+
+#copyrights {
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	color: #FFF;
+	background: rgb(153, 24, 24) none repeat scroll 0% 0%;
+	margin: 1% 0px 0px 0%;
+}
+
+.copy-rights {
+	font-family: century gothic;
+	font-size: 20px;
+	text-align: center;
+	color: #FFF;
+}
+
+.button-div input:hover {
+	
+	background: white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.logo-wrap img {
+    width: 100%;
+}
+
+.address-text a {
+	text-decoration: none;
+	color: white;
+}
+
+.second-class {
+	display: block;
+	margin: 1% 1% 1% 1%;
+	overflow: hidden;
+	width: 46%;
+}
+
+.textbox-name input {
+	width: 100%;
+	height: 30px;
+	font-family: century gothic;
+	font-size: 20px;
+	color: #991818;
+	font-weight: bold;
+}
